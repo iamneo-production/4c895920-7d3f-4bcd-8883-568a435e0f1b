@@ -12,14 +12,13 @@ import org.springframework.stereotype.Controller;
 @ComponentScan("controller")
 @EnableJpaRepositories("dao")
 @EntityScan("model")
-public class MovieAppApplication {
+public class SpringappApplication {
 
  
 
-    public static void main(String[] args) {
-        SpringApplication.run(MovieAppApplication.class, args);
+	public static void main(String[] args) {
+        SpringApplication.run(SpringappApplication.class, args);
     }
-
  
 
 }
